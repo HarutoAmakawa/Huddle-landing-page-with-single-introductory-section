@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    background: url(../images/bg-mobile.svg);
+    background-color: hsl(257, 40%, 49%);
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow-x: hidden;
+}
+
+footer button {
+    width: 40px;
+    height: 40px;
+}
+
+#register {
+    background: white;
+}
+
+#register:hover {
+    color: white;
+    background-color: hsl(300, 69%, 71%);
+    border: none;
+}
+
+#icon1,
+#icon2,
+#icon3 {
+    color: white;
+    border: 2px solid white;
+}
+
+#icon1:hover,
+#icon2:hover,
+#icon3:hover {
+    color: hsl(300, 69%, 71%);
+    border: 2px solid hsl(300, 69%, 71%);
+}
+
+@media (orientation: landscape) {
+    body {
+        background: url(../images/bg-desktop.svg);
+        background-color: hsl(257, 40%, 49%);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}
